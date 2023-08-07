@@ -20,6 +20,7 @@
 </head>
 <body>
   <h1>DevOps Glossary</h1>
+  <h1>Hello my name is Sharon Abraham Shaji and Welcome to my Website showing a collection of DevOps terms and their brief descriptions.</h1>
   <table>
     <tr>
       <th>ID#</th>
@@ -27,68 +28,25 @@
       <th>Description</th>
       <th>References</th>
     </tr>
-    <tr>
-      <td>1</td>
-      <td>DevOps Glossary</td>
-      <p>Hello my name is Sharon Abraham Shaji and Welcome to my Website showing a collection of DevOps terms and their brief descriptions.</p>
-      <td>DevOps is a combination of development (Dev) and operations (Ops) practices...</td>
-      <td><a href="https://en.wikipedia.org/wiki/DevOps">DevOps Wikipedia</a></td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Continuous Integration (CI)</td>
-      <td>Continuous Integration is a practice where developers regularly merge their code changes...</td>
-      <td><a href="https://en.wikipedia.org/wiki/Continuous_integration">Continuous Integration Wikipedia</a></td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Continuous Delivery (CD)</td>
-      <td>Continuous Delivery is an extension of continuous integration...</td>
-      <td><a href="https://en.wikipedia.org/wiki/Continuous_delivery">Continuous Delivery Wikipedia</a></td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Infrastructure as Code (IaC)</td>
-      <td>Infrastructure as Code is the practice of managing and provisioning IT infrastructure...</td>
-      <td><a href="https://en.wikipedia.org/wiki/Infrastructure_as_code">Infrastructure as Code Wikipedia</a></td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Docker</td>
-      <td>Docker is a platform that enables developers to create, deploy, and run applications...</td>
-      <td><a href="https://en.wikipedia.org/wiki/Docker_(software)">Docker Wikipedia</a></td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>Microservices</td>
-        <td>Microservices is an architectural style that structures an application as a collection of small, loosely coupled services...</td>
-        <td><a href="https://en.wikipedia.org/wiki/Microservices">Microservices Wikipedia</a></td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>Kubernetes</td>
-        <td>Kubernetes is an open-source platform designed to automate the deployment, scaling, and management of containerized applications...</td>
-        <td><a href="https://en.wikipedia.org/wiki/Kubernetes">Kubernetes Wikipedia</a></td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>Agile Methodology</td>
-        <td>Agile Methodology refers to a set of principles for software development that emphasizes flexibility, collaboration, and customer-centricity...</td>
-        <td><a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile Methodology Wikipedia</a></td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>Version Control System (VCS)</td>
-        <td>A Version Control System is a tool that helps developers manage changes to source code over time...</td>
-        <td><a href="https://en.wikipedia.org/wiki/Version_control">Version Control Wikipedia</a></td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td>Configuration Management</td>
-        <td>Configuration Management is the practice of systematically managing and maintaining the consistency of a system's performance...</td>
-        <td><a href="https://en.wikipedia.org/wiki/Configuration_management">Configuration Management Wikipedia</a></td>
-      </tr>
-      
+    <script>
+      fetch('/glossary')
+        .then(response => response.json())
+        .then(data => {
+          const table = document.querySelector('table');
+          data.forEach(item => {
+            const row = table.insertRow();
+            row.insertCell(0).textContent = item.id;
+            row.insertCell(1).textContent = item.term;
+            row.insertCell(2).textContent = item.description;
+            const linkCell = row.insertCell(3);
+            const link = document.createElement('a');
+            link.href = item.references;
+            link.textContent = item.references;
+            linkCell.appendChild(link);
+          });
+        })
+        .catch(error => console.error('Error fetching glossary:', error));
+    </script>
     </table>
 </body>
 </html>

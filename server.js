@@ -135,6 +135,128 @@ const glossary = [
   "term": "High Availability",
   "description": "High Availability refers to the design of systems and processes to ensure minimal service disruption and downtime.",
   "references": "https://en.wikipedia.org/wiki/High_availability"
+},
+// 4 of 5 
+{
+  "id": 31,
+  "term": "Artifact Repository",
+  "description": "An Artifact Repository is a centralized storage location for software artifacts, libraries, and dependencies.",
+  "references": "https://en.wikipedia.org/wiki/Package_manager"
+},
+{
+  "id": 32,
+  "term": "Feature Flags",
+  "description": "Feature Flags are a programming technique that allows toggling features on or off during runtime without changing the code.",
+  "references": "https://en.wikipedia.org/wiki/Feature_toggle"
+},
+{
+  "id": 33,
+  "term": "Webhooks",
+  "description": "Webhooks are automated HTTP callbacks used to trigger specific actions when a certain event occurs in a system.",
+  "references": "https://en.wikipedia.org/wiki/Webhook"
+},
+{
+  "id": 34,
+  "term": "Continuous Feedback",
+  "description": "Continuous Feedback involves regularly collecting and analyzing feedback from various stages of the software development lifecycle to improve processes and products.",
+  "references": "https://en.wikipedia.org/wiki/Feedback"
+},
+{
+  "id": 35,
+  "term": "Performance Testing",
+  "description": "Performance Testing is the process of evaluating the scalability, speed, and stability of a system under various conditions.",
+  "references": "https://en.wikipedia.org/wiki/Software_performance_testing"
+},
+{
+  "id": 36,
+  "term": "Provisioning",
+  "description": "Provisioning involves setting up and configuring the necessary hardware and software resources for applications to run.",
+  "references": "https://en.wikipedia.org/wiki/Provisioning"
+},
+{
+  "id": 37,
+  "term": "Code Coverage",
+  "description": "Code Coverage is a metric that measures the percentage of lines of code executed during automated tests.",
+  "references": "https://en.wikipedia.org/wiki/Code_coverage"
+},
+{
+  "id": 38,
+  "term": "Fault Tolerance",
+  "description": "Fault Tolerance is the ability of a system to continue functioning when part of it fails.",
+  "references": "https://en.wikipedia.org/wiki/Fault_tolerance"
+},
+{
+  "id": 39,
+  "term": "Service Mesh",
+  "description": "A Service Mesh is an infrastructure layer that handles service-to-service communication, often used in microservices architectures.",
+  "references": "https://en.wikipedia.org/wiki/Service_mesh"
+},
+{
+  "id": 40,
+  "term": "Hotfix",
+  "description": "A Hotfix is a small piece of code developed to correct a specific bug or security vulnerability in a live system.",
+  "references": "https://en.wikipedia.org/wiki/Hotfix"
+},
+// 5 of 5 
+{
+  "id": 41,
+  "term": "Infrastructure as a Service (IaaS)",
+  "description": "Infrastructure as a Service (IaaS) is a form of cloud computing that provides virtualized computing resources over the internet.",
+  "references": "https://en.wikipedia.org/wiki/Infrastructure_as_a_service"
+},
+{
+  "id": 42,
+  "term": "Platform as a Service (PaaS)",
+  "description": "Platform as a Service (PaaS) is a cloud computing model that provides a platform for developers to build, deploy, and run applications.",
+  "references": "https://en.wikipedia.org/wiki/Platform_as_a_service"
+},
+{
+  "id": 43,
+  "term": "Software as a Service (SaaS)",
+  "description": "Software as a Service (SaaS) is a software licensing and delivery model in which software is provided over the Internet.",
+  "references": "https://en.wikipedia.org/wiki/Software_as_a_service"
+},
+{
+  "id": 44,
+  "term": "Continuous Deployment",
+  "description": "Continuous Deployment is an extension of continuous delivery, which automates the release of code changes to a production environment without manual intervention.",
+  "references": "https://en.wikipedia.org/wiki/Continuous_delivery"
+},
+{
+  "id": 45,
+  "term": "Zero Downtime Deployment",
+  "description": "Zero Downtime Deployment is a software release strategy that enables the application to remain available during the update process.",
+  "references": "https://en.wikipedia.org/wiki/High_availability"
+},
+{
+  "id": 46,
+  "term": "Virtual Machine (VM)",
+  "description": "A Virtual Machine (VM) is an emulation of a computer system that runs on a physical computer.",
+  "references": "https://en.wikipedia.org/wiki/Virtual_machine"
+},
+{
+  "id": 47,
+  "term": "Containerization",
+  "description": "Containerization involves packaging an application and its dependencies in a 'container' to ensure that it runs consistently in any environment.",
+  "references": "https://en.wikipedia.org/wiki/OS-level_virtualization"
+},
+{
+  "id": 48,
+  "term": "Latency",
+  "description": "Latency refers to the delay between a user's action and the response from the system, commonly measured in milliseconds.",
+  "references": "https://en.wikipedia.org/wiki/Latency_(engineering)"
+},
+{
+  "id": 49,
+  "term": "Data Center",
+  "description": "A Data Center is a facility that centralizes an organization's shared IT operations and equipment for storing, processing, and disseminating data.",
+  "references": "https://en.wikipedia.org/wiki/Data_center"
+},
+{
+  "id": 50,
+  "term": "Business Continuity",
+  "description": "Business Continuity involves planning and preparation to ensure that an organization can continue to operate in case of serious incidents or disasters.",
+  "references": "https://en.wikipedia.org/wiki/Business_continuity"
 }
 ];
 

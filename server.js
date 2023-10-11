@@ -14,7 +14,7 @@ const glossary = [
   { id: 8, term: "Agile Methodology", description: "Agile Methodology refers to a set of principles for software development that emphasizes flexibility, collaboration, and customer-centricity...", references: "https://en.wikipedia.org/wiki/Agile_software_development" },
   { id: 9, term: "Version Control System (VCS)", description: "A Version Control System is a tool that helps developers manage changes to source code over time...", references: "https://en.wikipedia.org/wiki/Version_control" },
   { id: 10, term: "Configuration Management", description: "Configuration Management is the practice of systematically managing and maintaining the consistency of a system's performance...", references: "https://en.wikipedia.org/wiki/Configuration_management" },
-  //week
+  // 2 of 5 
   {
     "id": 11,
     "term": "Git",
@@ -75,6 +75,67 @@ const glossary = [
     "description": "Load Balancing is the distribution of incoming network traffic across multiple servers to optimize resource utilization, maximize performance, and ensure high availability.",
     "references": "https://en.wikipedia.org/wiki/Load_balancing_(computing)"
 },
+// 3 of 5 
+{
+  "id": 21,
+  "term": "Automated Testing",
+  "description": "Automated Testing involves the use of software tools to run tests that check the correctness and performance of an application automatically.",
+  "references": "https://en.wikipedia.org/wiki/Test_automation"
+},
+{
+  "id": 22,
+  "term": "Deployment Pipeline",
+  "description": "A Deployment Pipeline is an automated sequence of steps that takes code from version control to production, incorporating stages like build, test, and deployment.",
+  "references": "https://en.wikipedia.org/wiki/Deployment_environment"
+},
+{
+  "id": 23,
+  "term": "DevSecOps",
+  "description": "DevSecOps integrates security practices into the DevOps process, aiming for early identification and remediation of security vulnerabilities.",
+  "references": "https://en.wikipedia.org/wiki/DevSecOps"
+},
+{
+  "id": 24,
+  "term": "Release Management",
+  "description": "Release Management is the process of managing, planning, and scheduling the release of software updates.",
+  "references": "https://en.wikipedia.org/wiki/Release_management"
+},
+{
+  "id": 25,
+  "term": "Site Reliability Engineering (SRE)",
+  "description": "Site Reliability Engineering (SRE) is a discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems.",
+  "references": "https://en.wikipedia.org/wiki/Site_Reliability_Engineering"
+},
+{
+  "id": 26,
+  "term": "Chaos Engineering",
+  "description": "Chaos Engineering is the practice of intentionally injecting failures into systems to ensure they can withstand unexpected conditions.",
+  "references": "https://en.wikipedia.org/wiki/Chaos_engineering"
+},
+{
+  "id": 27,
+  "term": "Rolling Deployment",
+  "description": "Rolling Deployment is a software release strategy that stages the deployment of a new version across multiple servers, reducing downtime.",
+  "references": "https://en.wikipedia.org/wiki/Software_deployment"
+},
+{
+  "id": 28,
+  "term": "Build Automation",
+  "description": "Build Automation involves scripting or automating the process of compiling and building code into executable programs.",
+  "references": "https://en.wikipedia.org/wiki/Build_automation"
+},
+{
+  "id": 29,
+  "term": "API Gateway",
+  "description": "An API Gateway is a server that acts as an API front-end, aggregating various service requests and exposing them as a single API.",
+  "references": "https://en.wikipedia.org/wiki/API_management"
+},
+{
+  "id": 30,
+  "term": "High Availability",
+  "description": "High Availability refers to the design of systems and processes to ensure minimal service disruption and downtime.",
+  "references": "https://en.wikipedia.org/wiki/High_availability"
+}
 ];
 
 

@@ -14,18 +14,18 @@ const glossary = [
   { id: 8, term: "Agile Methodology", description: "Agile Methodology refers to a set of principles for software development that emphasizes flexibility, collaboration, and customer-centricity...", references: "https://en.wikipedia.org/wiki/Agile_software_development" },
   { id: 9, term: "Version Control System (VCS)", description: "A Version Control System is a tool that helps developers manage changes to source code over time...", references: "https://en.wikipedia.org/wiki/Version_control" },
   { id: 10, term: "Configuration Management", description: "Configuration Management is the practice of systematically managing and maintaining the consistency of a system's performance...", references: "https://en.wikipedia.org/wiki/Configuration_management" },
-  //week 2
+  //week
   {
-    id: 11,
-    term: "Git",
-    description: "Git is a distributed version control system that allows multiple developers to collaborate on a codebase simultaneously. Git tracks changes to source code over time, enables branching and merging workflows, and provides a complete history of a project's development.",
-    references: "https://en.wikipedia.org/wiki/Git"
+    "id": 11,
+    "term": "Git",
+    "description": "Git is a distributed version control system that allows multiple developers to collaborate on a codebase simultaneously. Git tracks changes to source code over time, enables branching and merging workflows, and provides a complete history of a project's development.",
+    "references": "https://en.wikipedia.org/wiki/Git"
   },
   {
-    id: 12,
-    term: "Jenkins",
-    description: "Jenkins is an open-source automation server that supports continuous integration and continuous delivery pipelines. Jenkins enables developers to automate build, test, and deployment processes.",
-    references: "https://en.wikipedia.org/wiki/Jenkins_(software)"
+    "id": 12,
+    "term": "Jenkins",
+    "description": "Jenkins is an open-source automation server that supports continuous integration and continuous delivery pipelines. Jenkins enables developers to automate build, test, and deployment processes.",
+    "references": "https://en.wikipedia.org/wiki/Jenkins_(software)"
   },
   {
     "id": 13,
@@ -51,6 +51,30 @@ const glossary = [
     "description": "Version Control is the practice of tracking changes to files and documents, enabling multiple people to collaborate on a project while keeping a history of changes.",
     "references": "https://en.wikipedia.org/wiki/Version_control"
   },
+  {
+    "id": 17,
+    "term": "Configuration Management",
+    "description": "Configuration Management involves managing the configuration and settings of software and infrastructure in a consistent and automated manner.",
+    "references": "https://en.wikipedia.org/wiki/Configuration_management"
+},
+{
+    "id": 18,
+    "term": "Scalability",
+    "description": "Scalability refers to a system's ability to handle increasing workloads by efficiently adapting its resources.",
+    "references": "https://en.wikipedia.org/wiki/Scalability"
+},
+{
+    "id": 19,
+    "term": "Immutable Infrastructure",
+    "description": "Immutable Infrastructure is an approach where server instances are never modified after they are created; instead, they are replaced with updated versions.",
+    "references": "https://en.wikipedia.org/wiki/Immutable_infrastructure"
+},
+{
+    "id": 20,
+    "term": "Load Balancing",
+    "description": "Load Balancing is the distribution of incoming network traffic across multiple servers to optimize resource utilization, maximize performance, and ensure high availability.",
+    "references": "https://en.wikipedia.org/wiki/Load_balancing_(computing)"
+},
 ];
 
 
